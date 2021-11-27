@@ -32,7 +32,7 @@ const io = socket(server, {
 // Listen for the connection
 
 io.on('connection', function(socket) {
-
+  console.log('hello')
   console.log('made socket connection')
 
   console.log(socket.id);
